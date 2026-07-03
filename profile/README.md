@@ -1,8 +1,5 @@
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&height=180&color=0:0f172a,45:0f766e,100:f97316&text=OctopusGarage&fontColor=ffffff&fontSize=44&fontAlignY=36&desc=Build%20More.%20Reach%20Everywhere.&descAlignY=58&animation=fadeIn" />
-    <img src="https://capsule-render.vercel.app/api?type=waving&height=180&color=0:e0f2fe,45:ccfbf1,100:fed7aa&text=OctopusGarage&fontColor=0f172a&fontSize=44&fontAlignY=36&desc=Build%20More.%20Reach%20Everywhere.&descAlignY=58&animation=fadeIn" alt="OctopusGarage - Build More. Reach Everywhere." />
-  </picture>
+  <img src="https://octopusgarage.github.io/assets/octopusgarage-wordmark.svg" width="520" alt="OctopusGarage - Build More. Reach Everywhere." />
 </p>
 
 <p align="center">
@@ -11,10 +8,6 @@
 
 <p align="center">
   <a href="https://octopusgarage.github.io/">Website</a>
-  ·
-  <a href="https://octopusgarage.github.io/llms.txt">llms.txt</a>
-  ·
-  <a href="https://octopusgarage.github.io/projects.json">projects.json</a>
 </p>
 
 <p align="center">
