@@ -23,6 +23,7 @@
 | Project | What it does | Best for |
 |---|---|---|
 | [tmux-claude-bot](https://github.com/OctopusGarage/tmux-claude-bot) | Drive Claude Code or OpenAI Codex inside tmux from Telegram, Feishu/Lark, a CLI, or a TUI. | Remote-control long-running coding agents |
+| [mesh-talk](https://github.com/OctopusGarage/mesh-talk) | Serverless, end-to-end-encrypted P2P messenger for your LAN. | Private local-network communication |
 | [git-auto-sync](https://github.com/OctopusGarage/git-auto-sync) | Monitor many local repos, stage safely, write conventional commits, push, and notify. | Keeping personal workspaces synced |
 | [net-auto-switch](https://github.com/OctopusGarage/net-auto-switch) | A macOS daemon that heals WiFi and Clash Verge proxy quality by measured network health. | Stable networks for builders who live behind proxies |
 | [bracket-guess](https://github.com/OctopusGarage/bracket-guess) | Predict a knockout bracket and export a shareable poster, all in the browser. | Fast, polished product experiments |
@@ -36,6 +37,7 @@ Tools that turn AI coding agents into durable, reachable workers.
 - [tmux-claude-bot](https://github.com/OctopusGarage/tmux-claude-bot) - multi-project agent sessions in tmux, controlled from chat, CLI, or TUI.
 - [telegram-bridge](https://github.com/OctopusGarage/telegram-bridge) - a smaller Telegram-to-tmux bridge for command injection and streamed pane output.
 - [octopusgarage-skills](https://github.com/OctopusGarage/octopusgarage-skills) - reusable Claude Code and Codex skills, starting with a macOS system-health guard.
+- [mesh-talk](https://github.com/OctopusGarage/mesh-talk) - serverless LAN messaging with a Rust protocol core and Tauri desktop app.
 
 ### Local Automation
 
@@ -43,7 +45,6 @@ Utilities that remove recurring machine-maintenance work without hiding the cont
 
 - [git-auto-sync](https://github.com/OctopusGarage/git-auto-sync) - AI-assisted multi-repo sync with scheduler support and pluggable notifications.
 - [net-auto-switch](https://github.com/OctopusGarage/net-auto-switch) - layered WiFi plus proxy node switching for macOS and Clash Verge.
-- [forge-mcp-server](https://github.com/OctopusGarage/forge-mcp-server) - a personal MCP hub for project aliases, prompt libraries, and knowledge bases.
 
 ### Browser Labs
 
