@@ -52,7 +52,6 @@ Small, complete web products that run mostly or entirely on the client.
 
 - [bracket-guess](https://github.com/OctopusGarage/bracket-guess) - 2026 World Cup bracket picker with poster export and four languages.
 - [MBTI Lab](https://github.com/OctopusGarage/mbti-lab) - bilingual personality test with shareable results and offline support.
-- [octopus.ai](https://github.com/OctopusGarage/octopus.ai) - landing page for turning expertise into a private skill matrix and MCP moat.
 
 ## Operating Principles
 
@@ -77,7 +76,6 @@ Small, complete web products that run mostly or entirely on the client.
 |---|---|
 | Bracket Guess | https://octopusgarage.github.io/bracket-guess/ |
 | MBTI Lab | https://octopusgarage.github.io/mbti-lab/ |
-| Octopus AI | https://octopusgarage.github.io/octopus.ai/ |
 
 ---
 
