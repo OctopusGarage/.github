@@ -10,6 +10,14 @@
 </p>
 
 <p align="center">
+  <a href="https://octopusgarage.github.io/">Website</a>
+  ·
+  <a href="https://octopusgarage.github.io/llms.txt">llms.txt</a>
+  ·
+  <a href="https://octopusgarage.github.io/projects.json">projects.json</a>
+</p>
+
+<p align="center">
   <a href="https://github.com/OctopusGarage/tmux-claude-bot"><img alt="tmux-claude-bot" src="https://img.shields.io/badge/agent-control-0f766e?style=flat-square"></a>
   <a href="https://github.com/OctopusGarage/git-auto-sync"><img alt="git-auto-sync" src="https://img.shields.io/badge/local-automation-f97316?style=flat-square"></a>
   <a href="https://github.com/OctopusGarage/bracket-guess"><img alt="browser labs" src="https://img.shields.io/badge/browser-labs-2563eb?style=flat-square"></a>
