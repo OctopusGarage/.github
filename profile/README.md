@@ -1,105 +1,94 @@
 <p align="center">
-  <img src="https://octopusgarage.github.io/assets/octopusgarage-wordmark.svg" width="520" alt="OctopusGarage - Build More. Reach Everywhere." />
+  <a href="https://octopusgarage.github.io/">
+    <img src="https://octopusgarage.github.io/assets/octopusgarage-wordmark.svg" width="560" alt="OctopusGarage - Build More. Reach Everywhere." />
+  </a>
 </p>
 
 <p align="center">
-  Small, practical tools for people who build with AI agents, local automation, private knowledge, and browser-native products.
+  <strong>Compact open-source systems for agent operators, local automation, and private knowledge work.</strong>
+</p>
+
+<p align="center">
+  OctopusGarage builds tools that keep long-running AI work reachable, observable, and under human control.
 </p>
 
 <p align="center">
   <a href="https://octopusgarage.github.io/">Website</a>
   ·
-  <a href="https://octopusgarage.github.io/projects.json">Project data</a>
+  <a href="https://octopusgarage.github.io/projects.json">Project index</a>
   ·
   <a href="https://octopusgarage.github.io/llms.txt">llms.txt</a>
+  ·
+  <a href="https://github.com/OctopusGarage">GitHub</a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/OctopusGarage/tmux-claude-bot"><img alt="tmux-claude-bot" src="https://img.shields.io/badge/agent-control-0f766e?style=flat-square"></a>
-  <a href="https://github.com/OctopusGarage/git-auto-sync"><img alt="git-auto-sync" src="https://img.shields.io/badge/local-automation-f97316?style=flat-square"></a>
-  <a href="https://github.com/OctopusGarage/alcove"><img alt="knowledge tools" src="https://img.shields.io/badge/knowledge-tools-7c3aed?style=flat-square"></a>
-  <a href="https://github.com/OctopusGarage"><img alt="open source" src="https://img.shields.io/badge/open-source-111827?style=flat-square"></a>
+  <a href="https://github.com/OctopusGarage/tmux-claude-bot"><img alt="Agent control" src="https://img.shields.io/badge/agent_control-tmux_%2B_chat-0f766e?style=flat-square"></a>
+  <a href="https://github.com/OctopusGarage/alcove"><img alt="Private knowledge" src="https://img.shields.io/badge/private_knowledge-local_first-2563eb?style=flat-square"></a>
+  <a href="https://github.com/OctopusGarage/git-auto-sync"><img alt="Local automation" src="https://img.shields.io/badge/local_automation-operator_visible-f97316?style=flat-square"></a>
+  <a href="https://octopusgarage.github.io/"><img alt="GitHub Pages" src="https://img.shields.io/badge/pages-live-111827?style=flat-square"></a>
 </p>
 
 ---
 
-## Start Here
+## Start with the operating layer
 
-| Project | What it does | Best for |
+| Use case | Project | Why it exists |
 |---|---|---|
-| 🤖 [tmux-claude-bot](https://github.com/OctopusGarage/tmux-claude-bot) | Control Claude Code and Codex agents from Telegram, Feishu/Lark, a CLI, or a TUI. | Remote-control long-running coding agents |
-| 🧠 [alcove](https://github.com/OctopusGarage/alcove) | Keep local-first personal memory for agent workflows. | Private knowledge and retrieval around daily work |
-| ✂️ [clipsmith](https://github.com/OctopusGarage/clipsmith) | Capture posts, articles, media, and OCR into portable local bundles. | Turning web research into local source bundles |
-| 🔄 [git-auto-sync](https://github.com/OctopusGarage/git-auto-sync) | Monitor many local repos, stage safely, write conventional commits, push, and notify. | Keeping personal workspaces synced |
-| 🛜 [net-auto-switch](https://github.com/OctopusGarage/net-auto-switch) | Heal WiFi and Clash Verge proxy quality by measured network health. | Stable networks for builders who live behind proxies |
-| 🔐 [mesh-talk](https://github.com/OctopusGarage/mesh-talk) | Serverless, end-to-end-encrypted P2P messenger for your LAN. | Private local-network communication |
+| Keep agents reachable | [tmux-claude-bot](https://github.com/OctopusGarage/tmux-claude-bot) | Control Claude Code and OpenAI Codex inside tmux from Telegram, Feishu/Lark, CLI, or TUI. |
+| Preserve working memory | [alcove](https://github.com/OctopusGarage/alcove) | Keep personal memory local-first for agent workflows and private retrieval. |
+| Capture source material | [clipsmith](https://github.com/OctopusGarage/clipsmith) | Save posts, articles, media, and OCR into portable local bundles. |
+| Keep repositories moving | [git-auto-sync](https://github.com/OctopusGarage/git-auto-sync) | Monitor local repos, stage carefully, write conventional commits, push, and notify. |
+| Stabilize the machine | [net-auto-switch](https://github.com/OctopusGarage/net-auto-switch) | Measure WiFi and Clash Verge proxy quality, then switch only when the signal justifies it. |
+| Communicate on a LAN | [mesh-talk](https://github.com/OctopusGarage/mesh-talk) | Run serverless, end-to-end-encrypted local-network messaging with a Rust protocol core. |
 
-## What We Build
+## Product lines
 
-### 🤖 Agent Control
-
-Tools that turn AI coding agents into durable, reachable workers.
+**Agent control**
 
 - [tmux-claude-bot](https://github.com/OctopusGarage/tmux-claude-bot) - multi-project agent sessions in tmux, controlled from chat, CLI, or TUI.
-- [telegram-bridge](https://github.com/OctopusGarage/telegram-bridge) - a smaller Telegram-to-tmux bridge for command injection and streamed pane output.
+- [telegram-bridge](https://github.com/OctopusGarage/telegram-bridge) - focused Telegram-to-tmux bridge with streamed pane output.
 - [octopusgarage-skills](https://github.com/OctopusGarage/octopusgarage-skills) - reusable Claude Code and Codex skills for OctopusGarage workflows.
 
-### 🔄 Local Automation
-
-Utilities that remove recurring machine-maintenance work without hiding the controls.
+**Local automation**
 
 - [git-auto-sync](https://github.com/OctopusGarage/git-auto-sync) - AI-assisted multi-repo sync with scheduler support and pluggable notifications.
-- [net-auto-switch](https://github.com/OctopusGarage/net-auto-switch) - layered WiFi plus proxy node switching for macOS and Clash Verge.
+- [net-auto-switch](https://github.com/OctopusGarage/net-auto-switch) - layered WiFi and proxy-node switching for macOS and Clash Verge.
 - [envsentinel](https://github.com/OctopusGarage/envsentinel) - terminal-first audit of local environment signals for AI coding CLIs.
 
-### 🧠 Knowledge and Learning
-
-Private memory, source capture, and practical language feedback for agent-assisted work.
+**Knowledge and learning**
 
 - [alcove](https://github.com/OctopusGarage/alcove) - local-first personal memory for agent workflows.
-- [clipsmith](https://github.com/OctopusGarage/clipsmith) - capture posts, articles, media, and OCR into portable local bundles.
-- [english-pilot](https://github.com/OctopusGarage/english-pilot) - English conversation gate, coaching assistant, and review system for AI workflows.
+- [clipsmith](https://github.com/OctopusGarage/clipsmith) - source capture for articles, posts, media, and OCR.
+- [english-pilot](https://github.com/OctopusGarage/english-pilot) - conversation gate, coaching assistant, and English review system for AI-assisted work.
 
-### 🔐 Private Communication
+**Private communication and browser labs**
 
-- [mesh-talk](https://github.com/OctopusGarage/mesh-talk) - serverless LAN messaging with a Rust protocol core and Tauri desktop app.
+- [mesh-talk](https://github.com/OctopusGarage/mesh-talk) - serverless LAN messaging with a Rust core and Tauri desktop app.
+- [bracket-guess](https://github.com/OctopusGarage/bracket-guess) - browser-native tournament bracket picker with poster export.
+- [MBTI Lab](https://github.com/OctopusGarage/mbti-lab) - bilingual personality test with shareable results and offline-friendly behavior.
 
-### 🏆 Browser Labs
+## Operating principles
 
-Small, complete web products that run mostly or entirely on the client.
-
-- [bracket-guess](https://github.com/OctopusGarage/bracket-guess) - 2026 World Cup bracket picker with poster export and four languages.
-- [MBTI Lab](https://github.com/OctopusGarage/mbti-lab) - bilingual personality test with shareable results and offline support.
-
-## Operating Principles
-
-- **Local first** - private data and working state should stay on the machine whenever possible.
-- **Operator in the loop** - automation should explain what it is doing and leave room for approval.
-- **One-command install** - tools should be easy to try, update, and remove.
-- **Small surface area** - each project should solve one concrete workflow well.
-- **Useful before impressive** - polish matters, but the first job is to save time or reduce friction.
-
-## Stack We Reach For
-
-| Area | Tools |
+| Principle | What it means here |
 |---|---|
-| Agent tooling | tmux, MCP, Claude Code, OpenAI Codex, Telegram, Feishu/Lark |
-| Frontend products | React, Vue, TypeScript, Vite, GitHub Pages, PWA |
-| Local CLIs | Python, uv, Node.js, pnpm, launchd, systemd |
-| Quality | Vitest, pytest, Biome, Ruff, CodeQL, GitHub Actions |
+| Local first | Private data and working state should stay on the machine whenever possible. |
+| Operator visible | Automation should explain what it is doing and leave room for approval. |
+| One-command install | Tools should be easy to try, update, and remove. |
+| Small surface area | Each repository should solve one concrete workflow well. |
+| Useful before impressive | Polish matters, but the first job is to save time or reduce friction. |
 
-## Try Something
+## Live surfaces
 
-| Product | Link |
+| Surface | Link |
 |---|---|
-| Alcove | https://octopusgarage.github.io/alcove/ |
-| Bracket Guess | https://octopusgarage.github.io/bracket-guess/ |
-| Clipsmith | https://octopusgarage.github.io/clipsmith |
-| MBTI Lab | https://octopusgarage.github.io/mbti-lab/ |
-| Mesh Talk | https://octopusgarage.github.io/mesh-talk/ |
+| Organization site | https://octopusgarage.github.io/ |
+| Project data | https://octopusgarage.github.io/projects.json |
+| AI-readable summary | https://octopusgarage.github.io/llms.txt |
+| Full AI profile | https://octopusgarage.github.io/llms-full.txt |
 
 ---
 
 <p align="center">
-  Build More. Reach Everywhere.
+  <sub>Build More. Reach Everywhere.</sub>
 </p>
