@@ -5,11 +5,12 @@
 </p>
 
 <p align="center">
-  <strong>Compact open-source systems for agent operators, local automation, and private knowledge work.</strong>
+  <strong>Compact open-source tools for durable AI-assisted work.</strong>
 </p>
 
 <p align="center">
-  OctopusGarage builds tools that keep long-running AI work reachable, observable, and under human control.
+  OctopusGarage builds the operating layer around long-running agents: remote control,
+  local machine upkeep, source capture, private memory, local communication, and focused browser products.
 </p>
 
 <p align="center">
@@ -24,7 +25,7 @@
 
 <p align="center">
   <a href="https://github.com/OctopusGarage/tmux-claude-bot"><img alt="Agent control" src="https://img.shields.io/badge/agent_control-tmux_%2B_chat-0f766e?style=flat-square"></a>
-  <a href="https://github.com/OctopusGarage/alcove"><img alt="Private knowledge" src="https://img.shields.io/badge/private_knowledge-local_first-2563eb?style=flat-square"></a>
+  <a href="https://github.com/OctopusGarage/alcove"><img alt="Private memory" src="https://img.shields.io/badge/private_memory-local_first-2563eb?style=flat-square"></a>
   <a href="https://github.com/OctopusGarage/git-auto-sync"><img alt="Local automation" src="https://img.shields.io/badge/local_automation-operator_visible-f97316?style=flat-square"></a>
   <a href="https://octopusgarage.github.io/"><img alt="GitHub Pages" src="https://img.shields.io/badge/pages-live-111827?style=flat-square"></a>
 </p>
@@ -35,12 +36,12 @@
 
 | Use case | Project | Why it exists |
 |---|---|---|
-| Keep agents reachable | [tmux-claude-bot](https://github.com/OctopusGarage/tmux-claude-bot) | Control Claude Code and OpenAI Codex inside tmux from Telegram, Feishu/Lark, CLI, or TUI. |
+| Keep coding agents reachable | [tmux-claude-bot](https://github.com/OctopusGarage/tmux-claude-bot) | Control Claude Code and OpenAI Codex sessions from Telegram, Feishu/Lark, CLI, or TUI while the real process stays inside tmux. |
+| Bridge one chat to one pane | [telegram-bridge](https://github.com/OctopusGarage/telegram-bridge) | Forward Telegram messages into tmux and stream pane output back to chat. |
 | Preserve working memory | [alcove](https://github.com/OctopusGarage/alcove) | Keep personal memory local-first for agent workflows and private retrieval. |
 | Capture source material | [clipsmith](https://github.com/OctopusGarage/clipsmith) | Save posts, articles, media, and OCR into portable local bundles. |
 | Keep repositories moving | [git-auto-sync](https://github.com/OctopusGarage/git-auto-sync) | Monitor local repos, stage carefully, write conventional commits, push, and notify. |
 | Stabilize the machine | [net-auto-switch](https://github.com/OctopusGarage/net-auto-switch) | Measure WiFi and Clash Verge proxy quality, then switch only when the signal justifies it. |
-| Communicate on a LAN | [mesh-talk](https://github.com/OctopusGarage/mesh-talk) | Run serverless, end-to-end-encrypted local-network messaging with a Rust protocol core. |
 
 ## Product lines
 
@@ -48,6 +49,9 @@
 
 - [tmux-claude-bot](https://github.com/OctopusGarage/tmux-claude-bot) - multi-project agent sessions in tmux, controlled from chat, CLI, or TUI.
 - [telegram-bridge](https://github.com/OctopusGarage/telegram-bridge) - focused Telegram-to-tmux bridge with streamed pane output.
+
+**Agent skills**
+
 - [octopusgarage-skills](https://github.com/OctopusGarage/octopusgarage-skills) - reusable Claude Code and Codex skills for OctopusGarage workflows.
 
 **Local automation**
