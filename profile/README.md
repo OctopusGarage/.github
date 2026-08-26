@@ -10,7 +10,8 @@
 
 <p align="center">
   OctopusGarage builds the operating layer around long-running agents: remote control,
-  local machine upkeep, source capture, private memory, local communication, and focused browser products.
+  local machine upkeep, source capture, private memory, learning loops, practical judgment,
+  local communication, and focused browser products.
 </p>
 
 <p align="center">
@@ -40,6 +41,8 @@
 | Bridge one chat to one pane | [telegram-bridge](https://github.com/OctopusGarage/telegram-bridge) | Forward Telegram messages into tmux and stream pane output back to chat. |
 | Preserve working memory | [alcove](https://github.com/OctopusGarage/alcove) | Keep personal memory local-first for agent workflows and private retrieval. |
 | Capture source material | [clipsmith](https://github.com/OctopusGarage/clipsmith) | Save posts, articles, media, and OCR into portable local bundles. |
+| Learn inside the video | [fluent-frame](https://github.com/OctopusGarage/fluent-frame) | Turn YouTube into a local-first bilingual English-learning workspace. |
+| Apply judgment frameworks | [phronesis](https://github.com/OctopusGarage/phronesis) | Use project-local agent modules for practical philosophy and reasoning lenses. |
 | Keep repositories moving | [git-auto-sync](https://github.com/OctopusGarage/git-auto-sync) | Monitor local repos, stage carefully, write conventional commits, push, and notify. |
 | Stabilize the machine | [net-auto-switch](https://github.com/OctopusGarage/net-auto-switch) | Measure WiFi and Clash Verge proxy quality, then switch only when the signal justifies it. |
 
@@ -65,6 +68,8 @@
 - [alcove](https://github.com/OctopusGarage/alcove) - local-first personal memory for agent workflows.
 - [clipsmith](https://github.com/OctopusGarage/clipsmith) - source capture for articles, posts, media, and OCR.
 - [english-pilot](https://github.com/OctopusGarage/english-pilot) - conversation gate, coaching assistant, and English review system for AI-assisted work.
+- [fluent-frame](https://github.com/OctopusGarage/fluent-frame) - local-first Chrome extension for bilingual YouTube subtitles and English learning notes.
+- [phronesis](https://github.com/OctopusGarage/phronesis) - practical-wisdom workspace for applying philosophical thought modules with local agents.
 
 **Private communication and browser labs**
 
